@@ -19,6 +19,8 @@ website:
       # - href: 2023-09-05.qmd
       #   text: "Week 3: Sep 5"
       - "---"
+      - href: "https://forms.gle/TH1yLitU9dTfB4sg8"
+        text: "Suggestion Box <i class=\"bi bi-box-arrow-up-right ps-1\"></i>"
       - href: "https://georgetown.instructure.com/courses/173310"
         text: "Course Canvas Page <i class=\"bi bi-box-arrow-up-right ps-1\"></i>"
 
