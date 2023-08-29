@@ -5,7 +5,7 @@ project:
 website:
   title: ""
   sidebar:
-    title: "DSAN 5000 Section 02 (Tuesdays)<br><span class=\"subtitle\">Fall 2023, Georgetown</span>"
+    title: "DSAN 5000 Section 02 (Tuesdays, 12:30pm-3pm)<br><span class=\"subtitle\">Fall 2023, Georgetown</span>"
     contents:
       - href: "https://jfh.georgetown.domains/dsan5000/"
         text: "<i class=\"bi bi-arrow-left\" style=\"margin-right: 4px\"></i>Main Course Page"
