@@ -19,7 +19,7 @@ website:
       # - href: 2023-09-05.qmd
       #   text: "Week 3: Sep 5"
       - "---"
-      - href: "https://canvas.georgetown.edu"
+      - href: "https://georgetown.instructure.com/courses/173310"
         text: "Course Canvas Page <i class=\"bi bi-box-arrow-up-right ps-1\"></i>"
 
 format:
