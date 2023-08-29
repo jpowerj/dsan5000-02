@@ -1,0 +1,32 @@
+---
+title: "Week 2: Data Science Fundamentals and Workflow"
+date: 2023-08-29
+date-format: full
+lecnum: 2
+categories:
+  - "Class Sessions"
+---
+
+::: {.callout-note}
+
+# Today's Links
+
+* <a class="icon-link" href="#" target="_blank"><i class="bi bi-file-slides pe-1"></i>Slides <sup><i class="bi bi-box-arrow-up-right"></i></sup></a> / 
+<a class="icon-link" href="#"><i class="bi bi-person-video2 ps-1 pe-1"></i>Notes (Slides as single page)</a>
+* <a class="icon-link" href="#"><i class="bi bi-laptop pe-1"></i>Lab 1</a>
+* <a class="icon-link" href="#"><i class="bi bi-film pe-1"></i>Lecture Recording</a>
+
+:::
+
+Today's Planned Schedule:
+
+| Start | End | Topic |
+|:- |:- |:- |
+| 12:30pm | 1:00pm | Computer Fundamentals |
+| 1:00pm | 1:30pm | Coding Fundamentals |
+| 1:40pm | 1:50pm | Break |
+| 1:50pm | 2:20pm | HTML and CSS |
+| 2:20pm | 2:30pm | Objects and Classes
+| 2:30pm | 3:00pm | Lab | 
+
+: {tbl-colwidths="[12,12,76]"}

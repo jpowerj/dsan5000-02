@@ -1,0 +1,31 @@
+project:
+  type: website
+
+website:
+  title: ""
+  sidebar:
+    title: "DSAN 5000 Section 02 (Tuesdays)<br><span class=\"subtitle\">Fall 2023, Georgetown</span>"
+    contents:
+      - href: "https://jfh.georgetown.domains/dsan5000/"
+        text: "<i class=\"bi bi-arrow-left\" style=\"margin-right: 4px\"></i>Main Course Page"
+      - "---"
+      - href: index.qmd
+        text: "Section 02 Home"
+      - href: 2023-08-23.qmd
+        text: "Week 1: Aug 23"
+      - href: 2023-08-29.qmd
+        text: "Week 2: Aug 29"
+      # - href: 2023-09-05.qmd
+      #   text: "Week 3: Sep 5"
+      - "---"
+      - href: "https://canvas.georgetown.edu"
+        text: "Canvas"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
