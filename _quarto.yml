@@ -20,7 +20,7 @@ website:
       #   text: "Week 3: Sep 5"
       - "---"
       - href: "https://canvas.georgetown.edu"
-        text: "Canvas"
+        text: "Course Canvas Page <i class=\"bi bi-box-arrow-up-right ps-1\"></i>"
 
 format:
   html:
