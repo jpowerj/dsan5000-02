@@ -12,6 +12,8 @@ website:
       - "---"
       - href: index.qmd
         text: "Section 02 Home"
+      - href: about.qmd
+        text: "About Me"
       - href: week01.qmd
         text: "Week 1: Aug 23"
       - href: week02.qmd
