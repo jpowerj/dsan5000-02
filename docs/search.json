@@ -4,14 +4,14 @@
     "href": "week02.html",
     "title": "Week 2: Data Science Fundamentals and Workflow",
     "section": "",
-    "text": "Today’s Links\n\n\n\n\nWeek 2 Lecture Notes\nLab 1 Home\nWeek 2 Lecture Recording (Posted after class ends)\n\n\n\nToday’s Planned Schedule:\n\n\n\n\n\n\n\n\n\n\n\n\nStart\nEnd\nTopic\n\n\n\n\n\n\nLecture\n12:30pm\n12:50pm\nComputer Fundamentals\n\n\n\n\n\n12:50pm\n1:10pm\nCoding Fundamentals\n\n\n\n\n\n1:10pm\n1:30pm\nHTML and CSS\n\n\n\n\n\n1:30pm\n1:50pm\nObjects and Classes\n\n\n\n\nBreak!\n1:50pm\n2:00pm\n\n\n\n\n\nLab\n2:00pm\n2:25pm\nLab Part I: Coding Demonstration\n\n\n\n\n\n2:25pm\n2:50pm\nLab Part II: HTML/CSS Demonstration\n\n\n\n\n\n2:50pm\n3:00pm\nLab Assignment Overview"
+    "text": "Today’s Links\n\n\n\n\nWeek 2 Lecture Notes\nLab 1 Home\n\n\n\nToday’s Planned Schedule:\n\n\n\n\n\n\n\n\n\n\n\n\nStart\nEnd\nTopic\n\n\n\n\n\n\nLecture\n12:30pm\n12:50pm\nComputer Fundamentals\n\n\n\n\n\n12:50pm\n1:10pm\nCoding Fundamentals\n\n\n\n\n\n1:10pm\n1:30pm\nHTML and CSS\n\n\n\n\n\n1:30pm\n1:50pm\nObjects and Classes\n\n\n\n\nBreak!\n1:50pm\n2:00pm\n\n\n\n\n\nLab\n2:00pm\n2:25pm\nLab Part I: Coding Demonstration\n\n\n\n\n\n2:25pm\n2:50pm\nLab Part II: HTML/CSS Demonstration\n\n\n\n\n\n2:50pm\n3:00pm\nLab Assignment Overview"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "DSAN 5000, Section 02",
     "section": "",
-    "text": "This is a “hub” collecting relevant links for each week, for students in the Tuesday section (Section 02) of DSAN 5000: Data Science and Analytics, Fall 2023 at Georgetown University.\nIt is not a replacement for the Main Course Page or the Canvas Page, which are shared across all sections!\nUse the menu on the left, or the table below, to view the resources for a specific week.\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nWeek 1: Welcome to DSAN 5000!\n\n\nWednesday, August 23, 2023\n\n\n\n\nWeek 2: Data Science Fundamentals and Workflow\n\n\nTuesday, August 29, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "This is a “hub” collecting relevant links for each week, for students in the Tuesday section (Section 02) of DSAN 5000: Data Science and Analytics, Fall 2023 at Georgetown University.\nIt is not a replacement for the Main Course Page or the Canvas Page, which are shared across all sections!\nUse the menu on the left, or the table below, to view the resources for a specific week.\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nWeek 1: Welcome to DSAN 5000!\n\n\nWednesday, August 23, 2023\n\n\n\n\nWeek 2: Data Science Fundamentals and Workflow\n\n\nTuesday, August 29, 2023\n\n\n\n\nWeek 3: Data Science Workflow\n\n\nWednesday, September 6, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "week01.html",
@@ -52,8 +52,8 @@
     "objectID": "about.html#prof.-jeff-introduction",
     "href": "about.html#prof.-jeff-introduction",
     "title": "",
-    "section": "Prof. Jeff Introduction!",
-    "text": "Prof. Jeff Introduction!\n\nBorn and raised in NW DC → high school in Rockville, MD\nUniversity of Maryland: Computer Science, Math, Economics (2008-2012)"
+    "section": "",
+    "text": "Born and raised in NW DC → high school in Rockville, MD\nUniversity of Maryland: Computer Science, Math, Economics (2008-2012)"
   },
   {
     "objectID": "about.html#prof.-jeff-introduction-1",
@@ -74,6 +74,76 @@
     "href": "about.html#research-labor-economics",
     "title": "",
     "section": "Research (Labor Economics)",
-    "text": "Research (Labor Economics)\n\n“Monopsony in Online Labor Markets”\n\nMachine Learning to enhance causal estimates of the effect of job description language on uptake rate\n\n“Unsupervised Extraction of Workplace Rights and Duties from Collective Bargaining Agreements”\n\nLinguistic (dependency) parses of CBAs → time series of worker vs. employer rights and responsibilities over time\n\n“Freedom as Non-Domination in the Labor Market”\n\nGame-theoretic models of Douglassian (republican) liberty1 for workers: monopsony vs. labor discipline\n\n\n\n\n\n\n\n\n\n\nFrederick Douglass: “It was slavery itself, not its mere incidents, that I hated.”"
+    "text": "Research (Labor Economics)\n\n“Monopsony in Online Labor Markets”\n\nMachine Learning to enhance causal estimates of the effect of job description language on uptake rate\n\n“Unsupervised Extraction of Workplace Rights and Duties from Collective Bargaining Agreements”\n\nLinguistic (dependency) parses of CBAs → time series of worker vs. employer rights and responsibilities over time\n\n“Freedom as Non-Domination in the Labor Market”\n\nGame-theoretic models of Douglassian (republican) liberty1 for workers: monopsony vs. labor discipline"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "",
+    "section": "",
+    "text": "Born and raised in NW DC → high school in Rockville, MD\nUniversity of Maryland: Computer Science, Math, Economics (2008-2012)"
+  },
+  {
+    "objectID": "about.html#footnotes",
+    "href": "about.html#footnotes",
+    "title": "",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nFrederick Douglass: “It was slavery itself, not its mere incidents, that I hated.”↩︎"
+  },
+  {
+    "objectID": "w03/slides.html#quarto",
+    "href": "w03/slides.html#quarto",
+    "title": "Week 3: Data Science Workflow",
+    "section": "Quarto",
+    "text": "Quarto"
+  },
+  {
+    "objectID": "w03/slides.html#git",
+    "href": "w03/slides.html#git",
+    "title": "Week 3: Data Science Workflow",
+    "section": "Git",
+    "text": "Git"
+  },
+  {
+    "objectID": "w03/index.html",
+    "href": "w03/index.html",
+    "title": "Week 3: Data Science Workflow",
+    "section": "",
+    "text": "Today’s Links\n\n\n\n\nWeek 2 Lecture Notes\nLab 1 Home\nToday’s Planned Schedule:"
+  },
+  {
+    "objectID": "w03/index.html#quarto",
+    "href": "w03/index.html#quarto",
+    "title": "Week 3: Data Science Workflow",
+    "section": "Quarto",
+    "text": "Quarto"
+  },
+  {
+    "objectID": "w03/index.html#git",
+    "href": "w03/index.html#git",
+    "title": "Week 3: Data Science Workflow",
+    "section": "Git",
+    "text": "Git"
+  },
+  {
+    "objectID": "w03/slides.html#internet",
+    "href": "w03/slides.html#internet",
+    "title": "Week 3: Data Science Workflow",
+    "section": "Internet",
+    "text": "Internet"
+  },
+  {
+    "objectID": "w03/slides.html#demonstration-1",
+    "href": "w03/slides.html#demonstration-1",
+    "title": "Week 3: Data Science Workflow",
+    "section": "Demonstration 1",
+    "text": "Demonstration 1"
+  },
+  {
+    "objectID": "w03/slides.html#assignment-overview",
+    "href": "w03/slides.html#assignment-overview",
+    "title": "Week 3: Data Science Workflow",
+    "section": "Assignment Overview",
+    "text": "Assignment Overview"
   }
 ]
