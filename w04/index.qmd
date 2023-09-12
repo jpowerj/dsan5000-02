@@ -14,7 +14,7 @@ bibliography: "../_DSAN5000.bib"
 format:
   revealjs:
     html-math-method: mathjax
-    #cache: true
+    cache: true
     scrollable: false
     slide-number: true
     output-file: slides.html
@@ -48,19 +48,19 @@ Today's Planned Schedule:
 
 | | Start | End | Topic | Recording |
 |:- |:- |:- |:- |:-:|
-| **Lecture** | 12:30pm | 1:00pm | <a href="#data-gathering">Data Gathering &rarr;</a> | <a href="./recording-w03-1.html" target="_blank"><i class="bi bi-film"></i></a> |
-| | 1:00pm | 1:30pm | <a href="#web-scraping">Web Scraping &rarr;</a> | <a href="./recording-w03-2.html" target="_blank"><i class="bi bi-film"></i></a> |
-| | 1:30pm | 1:45pm | <a href="#apis">APIs &rarr;</a> | <a href="https://jfh.georgetown.domains/dsan5000/slides-and-labs/_site/content/slides/html-css-basics/presentation.html#/html-and-css" target="_blank"><i class="bi bi-film"></i></a> |
-| | 1:45pm | 2:00pm | Quiz | | |
-| **Break!** | 2:00pm | 2:10pm | | | |
-| **Lab** | 2:10pm | 2:50pm | <a href="#lab-demonstrations">Lab Demonstrations &rarr;</a> | <a href="./recording-w03-4.html" target="_blank"><i class="bi bi-film"></i></a> |
-| | 2:50pm | 3:00pm | <a href="#lab-assignment-overview">Lab Assignment Overview &rarr;</a> | <a href="./recording-w03-5.html" target="_blank"><i class="bi bi-film"></i></a> |
+| **Lecture** | 12:30pm | 12:40pm | <a href="#week-03-recap">Week 03 Recap &rarr;</a> | <a href="./recording-w04-1.html" target="_blank" class="disabled"><i class="bi bi-film"></i></a> |
+| | 12:40pm | 1:00pm | <a href="https://georgetown.instructure.com/courses/173310/quizzes/201388">Quiz 2.1 <i class="bi bi-box-arrow-up-right" style="font-size: 1.5rem;"></i></a> | |
+| | 1:00pm | 1:30pm | <a href="#data-gathering">Data Gathering &rarr;</a> | <a href="./recording-w04-2.html" target="_blank" class="disabled"><i class="bi bi-film"></i></a> |
+| | 1:30pm | 1:45pm | <a href="#web-scraping">Web Scraping &rarr;</a> | <a href="./recording-w04-3.html" target="_blank" class="disabled"><i class="bi bi-film"></i></a> |
+| | 1:45pm | 2:00pm | <a href="#apis">APIs &rarr;</a> | <a href="./recording-w04-4" target="_blank" class="disabled"><i class="bi bi-film"></i></a> |
+| **Break!** | 2:00pm | 2:10pm | | |
+| **Lab** | 2:10pm | 2:50pm | <a href="#lab-demonstrations">Lab Demonstrations &rarr;</a> | <a href="./recording-w04-5.html" target="_blank" class="disabled"><i class="bi bi-film"></i></a> |
+| | 2:50pm | 3:00pm | <a href="#lab-assignment-overview">Lab Assignment Overview &rarr;</a> | <a href="./recording-w04-6.html" target="_blank" class="disabled"><i class="bi bi-film"></i></a> |
 
 : {tbl-colwidths="[14,12,12,50,12]"} 
 
 ## Overview {.smaller}
 
-* Week-04 topics: Data collections, scrapping, and, APIs
 * Introduction to common data structures and format:
 * Record, Transaction, Time-series, Network data, Text-data, Image-data
 * Structure/un-structured and Intensive vs extensive data
@@ -102,18 +102,352 @@ Today's Planned Schedule:
 
 ## Scraping Difficulty {.crunch-title}
 
-{{< include _scraping-levels.qmd >}}
+::: {.smallish}
+
+| | | How is data loaded? | Solution | Example |
+|:-:|-|-|-|:-:|
+| 😊 | **Easy** | Data in HTML source | "View Source" | [<i class="bi bi-box-arrow-up-right"></i>](https://ivanstat.com/en/gdp/ao.html){target="_blank"}
+| 😐 | **Medium** | Data loaded dynamically via API | "View Source", find API call, scrape programmatically | [<i class="bi bi-box-arrow-up-right"></i>](https://archive.org/details/killinghopeusmil0000blum/page/n3/mode/2up){target="_blank"}
+| 😳 | **Hard** | Data loaded dynamically [internally] via web framework | Use <a href="https://www.selenium.dev/" target="_blank">Selenium</a> | [<i class="bi bi-box-arrow-up-right"></i>](https://www.google.com/books/edition/Killing_Hope/-IbQvd13uToC?hl=en&gbpv=1&dq=killing%20hope&pg=PA215&printsec=frontcover){target="_blank"}
+
+: {tbl-colwidths="[5,10,45,35,5]"}
+
+:::
+
+## Data Structures: Foundations
+
+* Could be ([is](https://www.cs.umd.edu/class/spring2022/cmsc420-0101/){target="_blank"}) a whole class
+* Could be ([is](https://www.google.com/books/edition/The_Design_and_Analysis_of_Spatial_Data/LttQAAAAMAAJ?hl=en&gbpv=0&bsq=samet%20spatial%20data%20structures){target="_blank"}) a whole class just for one type of data (geographic/spatial)
+* For this class: some **foundational** principles that should let you figure out fancier data structures you encounter
+
+## Opening Datasets With Your Terminator Glasses On
+
+::: {layout-ncol=2}
+
+::: {.smallish}
+* What does a **row** represent?
+* What does a **column** represent?
+* What does a value in a **cell** represent?
+* Are there **unique identifiers** for the objects you care about?
+:::
+
+![What you should see when you look at a new dataset](images/terminator.jpeg){#fig-terminator}
+
+:::
+
+## From Raw Data to Clean Data
+
+{{< video https://youtu.be/crVo8Cdo4x0 width="100%" height="75%" >}}
+
+## Data Structures: Simple $\rightarrow$ Complex {.smaller .crunch-title .crunch-figures}
+
+::: {layout="[[1,1],[1,1]]"}
+
+::: {#fig-record-data}
+
+| id | name | email |
+| - | - | - |
+| 0 | K. Desbrow | kd9@dailymail.com |
+| 1 | D. Minall | dminall1@wired.com |
+| 2 | C. Knight | ck2@microsoft.com |
+| 3 | M. McCaffrey | mccaf4@nhs.uk |
+
+Record Data
+:::
+
+::: {#fig-time-series-data}
+
+| year | month | points |
+| - | - | - |
+| 2023 | Jan | 65 |
+| 2023 | Feb | |
+| 2023 | Mar | 42 |
+| 2023 | Apr | 11 |
+
+Time-Series Data
+:::
+
+::: {#fig-panel-data}
+
+| id | date | rating | num_rides |
+| - | - | - | - |
+| 0 | 2023-01 | 0.75 | 45 |
+| 0 | 2023-02 | 0.89 | 63 |
+| 0 | 2023-03 | 0.97 | 7 |
+| 1 | 2023-06 | 0.07 | 10 |
+
+
+Panel Data
+:::
+
+::: {#fig-network-data}
+
+| Source | Target | Weight |
+| - | - | - |
+| IGF2 | IGF1R | 1 |
+| IGF1R | TP53 | 2 |
+| TP53 | EGFR | 0.5 |
+
+Network Data
+:::
+
+:::
+
+::: {.aside}
+
+Fake data via [Mockaroo](https://www.mockaroo.com/){target="_blank"} and [Random.org](https://www.random.org/integers/){target="_blank"}. Protein-protein interaction network from [@agrawal_largescale_2018](http://psb.stanford.edu/psb-online/proceedings/psb18/agrawal.pdf)
+
+:::
+
+## Tabular Data vs. Relational Data {.smaller}
+
+* All of the datasets on the previous slide are **tabular**
+* Databases like SQLite, MySQL, require us to think about relationships **within** and **between** tabular datasets
+* Imagine you're creating the **backend** for a social network. How would you record **users** and **friendships**? Your intuition may be **record data**:
+
+::: {layout-ncol=2}
+
+::: {#fig-user-table}
+
+```{=html}
+<style>
+  #user-table tr th:nth-child(3) {
+	background-color: rgba(255,0,0,0.25);
+  border-left: 3px solid red;
+  border-top: 3px solid red;
+  border-right: 3px solid red;
+}  
+#user-table tr td:nth-child(3) {
+	background-color: rgba(255,0,0,0.25);
+  border-left: 3px solid red;
+  border-right: 3px solid red;
+}
+#user-table tr:last-child td:last-child {
+  border-bottom: 3px solid red;
+}
+</style>
+<table id="user-table">
+<colgroup>
+  <col>
+  <col>
+  <col style="border: 5px solid red !important;">
+</colgroup>
+<thead>
+  <tr>
+    <th>id</th><th>name</th><th>friends</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>1</td><td>Purna</td><td>[2,3,4]</td>
+  </tr>
+  <tr>
+    <td>2</td><td>Jeff</td><td>[1,3,4,5,6]</td>
+  </tr>
+  <tr>
+    <td>3</td><td>James</td><td>[1,2,4,6]</td>
+  </tr>
+  <tr>
+    <td>4</td><td>Nakul</td><td>[1,2,3]</td>
+  </tr>
+  <tr>
+    <td>5</td><td>Dr. Fauci</td><td>[2,6]</td>
+  </tr>
+  <tr>
+    <td>6</td><td>Pitbull</td><td>[2,5]</td>
+  </tr>
+</tbody>
+</table>
+```
+
+Our first attempt at a **data structure** for our social network app's backend
+:::
+
+::: {#friend-table-desc}
+
+Long story short...
+
+* This doesn't scale
+* Extremely inefficient to find whether two users are friends
+* Redundant information: Have to store friendship between **A** and **B** in both **A**'s row and **B**'s row
+
+:::
+
+:::
+
+## A Better Approach {.smaller .crunch-title .crunch-figures .crunch-layout-panel}
+
+* Move the **friendship** data into its own table!
+* This table now represents **relational data**, (**user** table still corresponds to **records**):
+
+::: {layout="[50,50]"}
+
+::: {#fig-user-table}
+
+```{=html}
+<style>
+  #user-table-rel tr th:nth-child(3) {
+	background-color: rgba(255,0,0,0.25);
+  border-left: 3px solid red;
+  border-top: 3px solid red;
+  border-right: 3px solid red;
+}  
+#user-table-rel tr td:nth-child(3) {
+	background-color: rgba(255,0,0,0.25);
+  border-left: 3px solid red;
+  border-right: 3px solid red;
+}
+</style>
+<table id="user-table-rel">
+<thead>
+  <tr>
+    <th>user_id</th><th>name</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>1</td><td>Purna</td>
+  </tr>
+  <tr>
+    <td>2</td><td>Jeff</td>
+  </tr>
+  <tr>
+    <td>3</td><td>James</td>
+  </tr>
+  <tr>
+    <td>4</td><td>Nakul</td>
+  </tr>
+  <tr>
+    <td>5</td><td>Dr. Fauci</td>
+  </tr>
+  <tr>
+    <td>6</td><td>Pitbull</td>
+  </tr>
+</tbody>
+</table>
+```
+
+The **user** table in our relational structure
+:::
+
+::: {#fig-relational-friendships}
+
+
+```{=html}
+<style>
+#friend-table-rel tr th:nth-child(3) {
+  border-right: 3px solid black;
+}  
+#friend-table-rel tr td:nth-child(3) {
+  border-right: 3px solid black;
+}
+</style>
+<table id="friend-table-rel">
+<thead>
+  <tr>
+    <th>id</th><th>friend_1</th><th>friend_2</th><th>id</th><th>friend_1</th><th>friend_2</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>1</td><td>1</td><td>2</td>
+    <td>6</td><td>2</td><td>5</td>
+  </tr>
+  <tr>
+    <td>2</td><td>1</td><td>3</td>
+    <td>7</td><td>2</td><td>6</td>
+  </tr>
+  <tr>
+    <td>3</td><td>1</td><td>4</td>
+    <td>8</td><td>3</td><td>4</td>
+  </tr>
+  <tr>
+    <td>4</td><td>2</td><td>3</td>
+    <td>9</td><td>3</td><td>6</td>
+  </tr>
+  <tr>
+    <td>5</td><td>2</td><td>4</td>
+    <td>10</td><td>5</td><td>6</td>
+  </tr>
+</tbody>
+</table>
+```
+
+The **friendships** table in our relational structure
+:::
+:::
+
+* May seem weird in terms of human readability, but think in terms of **memory/computational efficiency**: **(a)** Scalable, **(b)** Easy to find if two users are friends (via sorting/searching algorithms), **(c)** No redundant info
+
+## DBs: Relational or Otherwise {.smaller .crunch-title .crunch-ul .shift-footnotes}
+
+* For rest of lecture we zoom in on cases where data comes as individual **files**
+* But on top of the **relational** format from previous slide, there are also **non-relational database** formats, like the **document-based** format used by e.g. MongoDB[^prisma]
+* In either case, data is spread over **many files**, so that to obtain a single dataset we use **queries**.
+
+::: {layout="[1,2]"}
+
+::: {#fig-data-files}
+
+```{dot}
+//| fig-width: 5
+//| fig-height: 2
+digraph G {
+  rankdir=LR
+  file[label="File (.csv/.json/etc.)"];
+  load[label="read_csv()"];
+  dataset[label="Dataset"];
+  file -> load;
+  load -> dataset;
+}
+```
+
+**Statically** datasets (as **individual files** on disk)
+:::
+
+::: {#fig-data-queries}
+
+```{dot}
+//| fig-width: 6
+//| fig-height: 3
+digraph G {
+  rankdir=LR
+
+  subgraph cluster_00 {
+    label="Database"
+    tab1[label="Table 1"];
+    tab2[label="Table 2"];
+    tabdots[label="...", penwidth=0];
+    tabN[label="Table N"];
+  }
+
+  query[label="Query", style="dashed"];
+  tab1 -> query;
+  tab2 -> query;
+  tabdots -> query;
+  tabN -> query
+
+  dataset[label="Dataset"];
+
+  query -> dataset;
+}
+```
+
+Datasets formed **dynamically** via **database queries**
+:::
+
+:::
+
+[^prisma]: For (much) more on this topic, see [this page](https://www.prisma.io/dataguide/types/relational-vs-document-databases){target="_blank"} from **Prisma**, a high-level "wrapper" that auto-syncs your DB structure with a TypeScript **schema**, so your code knows exactly "what's inside" a variable whose content was retrieved from the DB...
 
 ## Data Formats
 
-* The most common formats, for most fields[^dbs]:
+* The most common formats, for most fields:
   * `.csv`: Comma-Separated Values
   * `.tsv`: Tab-Separated Values
   * `.json`: JavaScript Object Notation
   * `.xls`/`.xlsx`: Excel format
   * `.dta`: Stata format
-
-[^dbs]: This is considering only cases where the data comes in the form of individual **files**. There are also **database** formats like SQL and MongoDB (which we'll learn about later on) where data is spread over many files and obtained via database **queries**.
 
 ## `.csv` / `.tsv` {.smaller}
 
@@ -547,38 +881,57 @@ Logarithm 	/log/2l8 	3 -->
 
 ::: {.callout-tip icon="false" title="`PyGithub` Installation"}
 
-Install `PyGithub` using the following terminal/shell command:
+Install using the following terminal/shell command [[Documentation]](https://github.com/PyGithub/PyGithub){target="_blank" style="margin-left: 8px;"}
 
 ```bash
 pip install PyGithub
 ```
 
-[[Documentation]](https://github.com/PyGithub/PyGithub){target="_blank"} 
-
 :::
 
-The `PyGithub` library can handle this authentication process for you. Example: <a href="https://github.com/jpowerj/private-repo-test/" target="_blank">this private repo</a> in my account does **not** show up unless the request is **authenticated** (via a Personal Access Token)[^security]:
+`PyGithub` can handle authentication for you. Example: <a href="https://github.com/jpowerj/private-repo-test/" target="_blank">this private repo</a> in my account does **not** show up unless the request is **authenticated** (via a Personal Access Token)[^security]:
+
+::: {layout-ncol=2}
+
+
+::: {#fig-github-noauth}
 
 ```{python}
-#| label: pygithub-authenticate
+#| label: pygithub-noauth
 #| echo: true
-#| code-fold: show
-# Loading the access token securely
+import github
+g = github.Github()
+try:
+  g.get_repo("jpowerj/private-repo-test")
+except Exception as e:
+  print(e)
+```
+
+Using the GitHub API **without** authentication
+:::
+
+::: {#fig-gh-auth}
+
+```{python}
+#| label: pygithub-auth
+#| echo: true
+# Load the access token securely
 import os
 my_access_token = os.getenv('GITHUB_TOKEN')
 import github
-## Using an access token
+# Use the access token to make an API request
 auth = github.Auth.Token(my_access_token)
-g = Github(auth=auth)
-g.get_user().get_repos()
+g = github.Github(auth=auth)
+g.get_user().get_repo("private-repo-test")
 ```
 
-&nbsp;
+Using the GitHub API **with** authentication
+:::
+:::
 
-[^security]: Your code should **never** contain authentication info, especially when using GitHub. In this case, I created an OS **environment variable** called `GITHUB_TOKEN` containing my Personal Access Token, which I then load using [Python-Dotenv](https://github.com/theskumar/python-dotenv){target="_blank"} and provide to `PyGithub`.
+[^security]: Your code should **🚨never🚨** contain authentication info, especially when using GitHub. In this case, I created an OS **environment variable** called `GITHUB_TOKEN` containing my Personal Access Token, which I then loaded using `os.getenv()` and provided to `PyGithub`.
 
-
-## References {data-sm="false"}
+## References {.smaller}
 
 ::: {#refs}
 :::

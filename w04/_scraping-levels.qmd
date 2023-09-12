@@ -1,7 +1,1 @@
-| | How is data loaded? | Solution | Example |
-|-|-|-|:-:|
-| 😊 **Easy** | Data in HTML source | "View Source" | [<i class="bi bi-box-arrow-up-right"></i>](https://ivanstat.com/en/gdp/ao.html){target="_blank"}
-| 😐 **Medium** | Data loaded dynamically via API | "View Source", find API call, scrape programmatically | [<i class="bi bi-box-arrow-up-right"></i>](https://archive.org/details/killinghopeusmil0000blum/page/n3/mode/2up){target="_blank"}
-| 😳 **Hard** | Data loaded dynamically [internally] via web framework | Use <a href="https://www.selenium.dev/" target="_blank">Selenium</a> | [<i class="bi bi-box-arrow-up-right"></i>](https://www.google.com/books/edition/Killing_Hope/-IbQvd13uToC?hl=en&gbpv=1&dq=killing%20hope&pg=PA215&printsec=frontcover){target="_blank"}
 
-: {tbl-colwidths="[25,40,30,5]"}

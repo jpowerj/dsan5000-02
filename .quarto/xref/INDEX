@@ -25,6 +25,10 @@
     "index.html": "46db6aeb"
   },
   "w04/index.qmd": {
-    "slides.html": "4145eacb"
+    "slides.html": "4145eacb",
+    "index.html": "9f200722"
+  },
+  "w04/w04.ipynb": {
+    "w04.html": "e1a77059"
   }
 }
