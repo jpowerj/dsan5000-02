@@ -441,7 +441,6 @@ Jeff Jacobs
 
   <p class="date">Tuesday, September 12, 2023</p>
 </section>
-<section>
 <section id="schedule" class="title-slide slide level1 smaller small-title crunch-title crunch-callout center" data-stack-name="Schedule">
 <h1>Schedule</h1>
 <p>Today’s Planned Schedule:</p>
@@ -522,25 +521,79 @@ Jeff Jacobs
 </tbody>
 </table>
 </section>
-<section id="overview" class="slide level2 smaller">
-<h2>Overview</h2>
+
+<section>
+<section id="week-03-recap" class="title-slide slide level1 smaller smaller-title not-title-slide center" data-stack-name="Recap">
+<h1>Week 03 Recap</h1>
+
+<img data-src="images/client_server.jpeg" class="r-stretch quarto-figure-center"><p class="caption">Image from <span class="citation" data-cites="menczer_first_2020">Menczer, Fortunato, and Davis (<a href="#/references" role="doc-biblioref" onclick="">2020, 90</a>)</span></p></section>
+<section id="git-commands" class="slide level2 smaller crunch-title">
+<h2>Git Commands</h2>
+<table>
+<colgroup>
+<col style="width: 30%">
+<col style="width: 70%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Command</th>
+<th>What It Does</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>git clone</code></td>
+<td>Downloads a repo from the web to our local computer</td>
+</tr>
+<tr class="even">
+<td><code>git init</code></td>
+<td>Creates a new, blank Git repository on our local computer (configuration/change-tracking stored in <code>.git</code> subfolder)</td>
+</tr>
+<tr class="odd">
+<td><code>git add</code></td>
+<td><strong>Stages</strong> a file(s): Git will now track changes in this file(s)</td>
+</tr>
+<tr class="even">
+<td><code>git reset</code></td>
+<td>Undoes a <code>git add</code></td>
+</tr>
+<tr class="odd">
+<td><code>git status</code></td>
+<td>Shows currently staged files and their status (created, modified, deleted)</td>
+</tr>
+<tr class="even">
+<td><code>git commit -m "message"</code></td>
+<td>“Saves” the current version of all staged files, ready to be pushed to a backup dir or remote server like GitHub</td>
+</tr>
+<tr class="odd">
+<td><code>git push</code></td>
+<td>Transmits local commits to remote server</td>
+</tr>
+<tr class="even">
+<td><code>git pull</code></td>
+<td>Downloads commits from remote server to local computer</td>
+</tr>
+<tr class="odd">
+<td><code>git merge</code></td>
+<td>Merges remote versions of files with local versions</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="reproducible-docsliterate-programming" class="slide level2 small-title crunch-title">
+<h2>Reproducible Docs/Literate Programming</h2>
 <ul>
-<li>Introduction to common data structures and format:</li>
-<li>Record, Transaction, Time-series, Network data, Text-data, Image-data</li>
-<li>Structure/un-structured and Intensive vs extensive data</li>
-<li>Quick look at common formats: CSV, JSON, XML, etc</li>
-<li>URL queries, web-scraping, legality and website Terms of Service</li>
-<li>Introduction of Beautiful soup</li>
-<li>(Good reference) https://realpython.com/python-web-scraping-practical-introduction/</li>
-<li>API fundamentals, APIs in R/python, (examples, google scholar wikipedia, news api, etc)</li>
-<li>What is an API?</li>
-<li>Types of APIs (e.g.&nbsp;REST)</li>
-<li>API Authentication and Key Management</li>
-<li>Making API Requests (GET, POST, PUT, DELETE)</li>
-<li>Using an API in R and Py to collect text data (with examples and code)</li>
-<li>Other methods for collecting data; Government data, Kaggle, etc</li>
+<li>1980s: <span class="math inline">\(\LaTeX\)</span> for <span class="math inline">\(\widehat{\mathcal{T}}\)</span>ypesetting <span class="math inline">\(\sqrt{math}^2\)</span></li>
+<li>1990s: <strong>Python</strong> and <strong>R</strong> as powerful <strong>scripting</strong> languages (no compilation required)</li>
+<li>2000s/2010s: Interactive Python via <strong>Jupyter</strong>, fancy IDE for R called <strong>RStudio</strong></li>
+<li>2020s: <strong>Quarto</strong> (using <strong>pandoc</strong> under the hood) enables use of markdown for formatting, <span class="math inline">\(\LaTeX\)</span> for math, and both Python and R in same document, with choice of output formats (HTML, presentations, Word docs, …)</li>
 </ul>
 </section></section>
+<section id="quiz-time" class="title-slide slide level1 center">
+<h1>Quiz Time</h1>
+
+</section>
+
 <section>
 <section id="data-gathering" class="title-slide slide level1 center" data-stack-name="Data Gathering">
 <h1>Data Gathering</h1>
@@ -1755,6 +1808,9 @@ Logarithm   /log/2l8    3 -->
 <div id="refs" class="references csl-bib-body hanging-indent" role="list">
 <div id="ref-agrawal_largescale_2018" class="csl-entry" role="listitem">
 Agrawal, Monica, Marinka Zitnik, and Jure Leskovec. 2018. <span>“Large-Scale Analysis of Disease Pathways in the Human Interactome.”</span> In <em><span>PACIFIC SYMPOSIUM</span> on <span>BIOCOMPUTING</span> 2018: <span>Proceedings</span> of the Pacific Symposium</em>, 111–22. <span>World Scientific</span>.
+</div>
+<div id="ref-menczer_first_2020" class="csl-entry" role="listitem">
+Menczer, Filippo, Santo Fortunato, and Clayton A. Davis. 2020. <em>A <span>First Course</span> in <span>Network Science</span></em>. <span>Cambridge University Press</span>.
 </div>
 </div>
 <!-- R APPENDIX -->

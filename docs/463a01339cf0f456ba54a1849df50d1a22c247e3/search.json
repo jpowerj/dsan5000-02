@@ -35,11 +35,18 @@
     "text": "Research (Labor Economics)\n\n“Monopsony in Online Labor Markets”\n\nMachine Learning to enhance causal estimates of the effect of job description language on uptake rate\n\n“Unsupervised Extraction of Workplace Rights and Duties from Collective Bargaining Agreements”\n\nLinguistic (dependency) parses of CBAs → time series of worker vs. employer rights and responsibilities over time\n\n“Freedom as Non-Domination in the Labor Market”\n\nGame-theoretic models of Douglassian (republican) liberty1 for workers: monopsony vs. labor discipline\n\n\n\n\n\n\n\n\n\n\nFrederick Douglass: “It was slavery itself, not its mere incidents, that I hated.”"
   },
   {
-    "objectID": "w04/slides.html#overview",
-    "href": "w04/slides.html#overview",
+    "objectID": "w04/slides.html#git-commands",
+    "href": "w04/slides.html#git-commands",
     "title": "Week 4: Data Gathering and APIs",
-    "section": "Overview",
-    "text": "Overview\n\nIntroduction to common data structures and format:\nRecord, Transaction, Time-series, Network data, Text-data, Image-data\nStructure/un-structured and Intensive vs extensive data\nQuick look at common formats: CSV, JSON, XML, etc\nURL queries, web-scraping, legality and website Terms of Service\nIntroduction of Beautiful soup\n(Good reference) https://realpython.com/python-web-scraping-practical-introduction/\nAPI fundamentals, APIs in R/python, (examples, google scholar wikipedia, news api, etc)\nWhat is an API?\nTypes of APIs (e.g. REST)\nAPI Authentication and Key Management\nMaking API Requests (GET, POST, PUT, DELETE)\nUsing an API in R and Py to collect text data (with examples and code)\nOther methods for collecting data; Government data, Kaggle, etc"
+    "section": "Git Commands",
+    "text": "Git Commands\n\n\n\n\n\n\n\nCommand\nWhat It Does\n\n\n\n\ngit clone\nDownloads a repo from the web to our local computer\n\n\ngit init\nCreates a new, blank Git repository on our local computer (configuration/change-tracking stored in .git subfolder)\n\n\ngit add\nStages a file(s): Git will now track changes in this file(s)\n\n\ngit reset\nUndoes a git add\n\n\ngit status\nShows currently staged files and their status (created, modified, deleted)\n\n\ngit commit -m \"message\"\n“Saves” the current version of all staged files, ready to be pushed to a backup dir or remote server like GitHub\n\n\ngit push\nTransmits local commits to remote server\n\n\ngit pull\nDownloads commits from remote server to local computer\n\n\ngit merge\nMerges remote versions of files with local versions"
+  },
+  {
+    "objectID": "w04/slides.html#reproducible-docsliterate-programming",
+    "href": "w04/slides.html#reproducible-docsliterate-programming",
+    "title": "Week 4: Data Gathering and APIs",
+    "section": "Reproducible Docs/Literate Programming",
+    "text": "Reproducible Docs/Literate Programming\n\n1980s: \\(\\LaTeX\\) for \\(\\widehat{\\mathcal{T}}\\)ypesetting \\(\\sqrt{math}^2\\)\n1990s: Python and R as powerful scripting languages (no compilation required)\n2000s/2010s: Interactive Python via Jupyter, fancy IDE for R called RStudio\n2020s: Quarto (using pandoc under the hood) enables use of markdown for formatting, \\(\\LaTeX\\) for math, and both Python and R in same document, with choice of output formats (HTML, presentations, Word docs, …)"
   },
   {
     "objectID": "w04/slides.html#preexisting-data-sources",
@@ -207,7 +214,7 @@
     "href": "w04/slides.html#references",
     "title": "Week 4: Data Gathering and APIs",
     "section": "References",
-    "text": "References\n\n\nAgrawal, Monica, Marinka Zitnik, and Jure Leskovec. 2018. “Large-Scale Analysis of Disease Pathways in the Human Interactome.” In PACIFIC SYMPOSIUM on BIOCOMPUTING 2018: Proceedings of the Pacific Symposium, 111–22. World Scientific."
+    "text": "References\n\n\nAgrawal, Monica, Marinka Zitnik, and Jure Leskovec. 2018. “Large-Scale Analysis of Disease Pathways in the Human Interactome.” In PACIFIC SYMPOSIUM on BIOCOMPUTING 2018: Proceedings of the Pacific Symposium, 111–22. World Scientific.\n\n\nMenczer, Filippo, Santo Fortunato, and Clayton A. Davis. 2020. A First Course in Network Science. Cambridge University Press."
   },
   {
     "objectID": "w04/slides.html#scraping-html-with-httr2-and-xml2",
@@ -266,11 +273,18 @@
     "text": "Open slides in new window →"
   },
   {
-    "objectID": "w04/index.html#overview",
-    "href": "w04/index.html#overview",
+    "objectID": "w04/index.html#git-commands",
+    "href": "w04/index.html#git-commands",
     "title": "Week 4: Data Gathering and APIs",
-    "section": "Overview",
-    "text": "Overview\n\nIntroduction to common data structures and format:\nRecord, Transaction, Time-series, Network data, Text-data, Image-data\nStructure/un-structured and Intensive vs extensive data\nQuick look at common formats: CSV, JSON, XML, etc\nURL queries, web-scraping, legality and website Terms of Service\nIntroduction of Beautiful soup\n(Good reference) https://realpython.com/python-web-scraping-practical-introduction/\nAPI fundamentals, APIs in R/python, (examples, google scholar wikipedia, news api, etc)\nWhat is an API?\nTypes of APIs (e.g. REST)\nAPI Authentication and Key Management\nMaking API Requests (GET, POST, PUT, DELETE)\nUsing an API in R and Py to collect text data (with examples and code)\nOther methods for collecting data; Government data, Kaggle, etc"
+    "section": "Git Commands",
+    "text": "Git Commands\n\n\n\n\n\n\n\nCommand\nWhat It Does\n\n\n\n\ngit clone\nDownloads a repo from the web to our local computer\n\n\ngit init\nCreates a new, blank Git repository on our local computer (configuration/change-tracking stored in .git subfolder)\n\n\ngit add\nStages a file(s): Git will now track changes in this file(s)\n\n\ngit reset\nUndoes a git add\n\n\ngit status\nShows currently staged files and their status (created, modified, deleted)\n\n\ngit commit -m \"message\"\n“Saves” the current version of all staged files, ready to be pushed to a backup dir or remote server like GitHub\n\n\ngit push\nTransmits local commits to remote server\n\n\ngit pull\nDownloads commits from remote server to local computer\n\n\ngit merge\nMerges remote versions of files with local versions"
+  },
+  {
+    "objectID": "w04/index.html#reproducible-docsliterate-programming",
+    "href": "w04/index.html#reproducible-docsliterate-programming",
+    "title": "Week 4: Data Gathering and APIs",
+    "section": "Reproducible Docs/Literate Programming",
+    "text": "Reproducible Docs/Literate Programming\n\n1980s: \\(\\LaTeX\\) for \\(\\widehat{\\mathcal{T}}\\)ypesetting \\(\\sqrt{math}^2\\)\n1990s: Python and R as powerful scripting languages (no compilation required)\n2000s/2010s: Interactive Python via Jupyter, fancy IDE for R called RStudio\n2020s: Quarto (using pandoc under the hood) enables use of markdown for formatting, \\(\\LaTeX\\) for math, and both Python and R in same document, with choice of output formats (HTML, presentations, Word docs, …)"
   },
   {
     "objectID": "w04/index.html#preexisting-data-sources",
@@ -438,7 +452,7 @@
     "href": "w04/index.html#references",
     "title": "Week 4: Data Gathering and APIs",
     "section": "References",
-    "text": "References\n\n\nAgrawal, Monica, Marinka Zitnik, and Jure Leskovec. 2018. “Large-Scale Analysis of Disease Pathways in the Human Interactome.” In PACIFIC SYMPOSIUM on BIOCOMPUTING 2018: Proceedings of the Pacific Symposium, 111–22. World Scientific."
+    "text": "References\n\n\nAgrawal, Monica, Marinka Zitnik, and Jure Leskovec. 2018. “Large-Scale Analysis of Disease Pathways in the Human Interactome.” In PACIFIC SYMPOSIUM on BIOCOMPUTING 2018: Proceedings of the Pacific Symposium, 111–22. World Scientific.\n\n\nMenczer, Filippo, Santo Fortunato, and Clayton A. Davis. 2020. A First Course in Network Science. Cambridge University Press."
   },
   {
     "objectID": "w04/index.html#scraping-html-with-httr2-and-xml2",

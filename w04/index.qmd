@@ -59,22 +59,34 @@ Today's Planned Schedule:
 
 : {tbl-colwidths="[14,12,12,50,12]"} 
 
-## Overview {.smaller}
+# Week 03 Recap {.smaller .smaller-title .not-title-slide data-stack-name="Recap"}
 
-* Introduction to common data structures and format:
-* Record, Transaction, Time-series, Network data, Text-data, Image-data
-* Structure/un-structured and Intensive vs extensive data
-* Quick look at common formats: CSV, JSON, XML, etc
-* URL queries, web-scraping, legality and website Terms of Service
-* Introduction of Beautiful soup
-* (Good reference) https://realpython.com/python-web-scraping-practical-introduction/
-* API fundamentals, APIs in R/python, (examples, google scholar wikipedia, news api, etc)
-* What is an API?
-* Types of APIs (e.g. REST)
-* API Authentication and Key Management
-* Making API Requests (GET, POST, PUT, DELETE)
-* Using an API in R and Py to collect text data (with examples and code)
-* Other methods for collecting data; Government data, Kaggle, etc
+![Image from @menczer_first_2020 [p. 90]](images/client_server.jpeg){fig-align="center"}
+
+## Git Commands {.smaller .crunch-title}
+
+| Command | What It Does |
+| - | - |
+| `git clone` | Downloads a repo from the web to our local computer |
+| `git init` | Creates a new, blank Git repository on our local computer (configuration/change-tracking stored in `.git` subfolder) |
+| `git add` | **Stages** a file(s): Git will now track changes in this file(s) |
+| `git reset` | Undoes a `git add`
+| `git status` | Shows currently staged files and their status (created, modified, deleted) |
+| `git commit -m "message"` | "Saves" the current version of all staged files, ready to be pushed to a backup dir or remote server like GitHub |
+| `git push` | Transmits local commits to remote server |
+| `git pull` | Downloads commits from remote server to local computer |
+| `git merge` | Merges remote versions of files with local versions |
+
+: {tbl-colwidths="[30,70]"}
+
+## Reproducible Docs/Literate Programming {.small-title .crunch-title}
+
+* 1980s: $\LaTeX$ for $\widehat{\mathcal{T}}$ypesetting $\sqrt{math}^2$
+* 1990s: **Python** and **R** as powerful **scripting** languages (no compilation required)
+* 2000s/2010s: Interactive Python via **Jupyter**, fancy IDE for R called **RStudio**
+* 2020s: **Quarto** (using **pandoc** under the hood) enables use of markdown for formatting, $\LaTeX$ for math, and both Python and R in same document, with choice of output formats (HTML, presentations, Word docs, ...)
+
+# Quiz Time
 
 # Data Gathering {data-stack-name="Data Gathering"}
 
