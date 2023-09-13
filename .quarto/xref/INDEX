@@ -48,5 +48,11 @@
   },
   "writeups/domains-ssh/index.qmd": {
     "index.html": "ed80f3b2"
+  },
+  "writeups/hw1-clarifications/index.qmd": {
+    "index.html": "9755e27f"
+  },
+  "writeups/lab-1-2-clarifications/index.qmd": {
+    "index.html": "b107abe0"
   }
 }
