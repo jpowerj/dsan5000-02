@@ -20,8 +20,6 @@ website:
       - "---"
       - href: index.qmd
         text: "Section 02 Home"
-      - href: about.qmd
-        text: "About Me"
       - href: week01.qmd
         text: "Week 1: Aug 23"
       - href: week02.qmd
@@ -30,6 +28,9 @@ website:
         text: "Week 3: Sep 6 (Wednesday)"
       - href: w04/index.qmd
         text: "Week 4: Sep 12"
+      - "---"
+      - href: writeups/index.qmd
+        text: "Extra Writeups"
       - "---"
       - href: "https://forms.gle/TH1yLitU9dTfB4sg8"
         text: "Suggestion Box <i class=\"bi bi-box-arrow-up-right ps-1\"></i>"

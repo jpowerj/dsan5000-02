@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2023-09-12">
 
-<title>DSAN 5000, Section 02</title>
+<title>Using Quarto’s Reference/Citation Manager</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +24,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -61,40 +60,9 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-sidebar floating">
@@ -106,7 +74,9 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Section 02 Home</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">
+      DSAN 5000 Section 02 (Tuesdays, 12:30pm-3pm)&lt;br&gt;&lt;span class="subtitle"&gt;Intercultural Center 219&lt;/span&gt;&lt;br&gt;&lt;span class="subtitle"&gt;Fall 2023, Georgetown&lt;/span&gt;&lt;br&gt;&lt;span class="subtitle"&gt;Prof. Jeff &lt;a href="mailto:jj1088@georgetown.edu" target="_blank"&gt;&lt;i class="bi bi-envelope-at ps-1 pe-1"&gt;&lt;/i&gt;&lt;/a&gt;&lt;a href="https://github.com/jpowerj" target="_blank"&gt;&lt;i class="bi bi-github ps-1"&gt;&lt;/i&gt;&lt;/a&gt;&lt;/span&gt;
+      </li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -121,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">DSAN 5000 Section 02 (Tuesdays, 12:30pm-3pm)<br><span class="subtitle">Intercultural Center 219</span><br><span class="subtitle">Fall 2023, Georgetown</span><br><span class="subtitle">Prof.&nbsp;Jeff <a href="mailto:jj1088@georgetown.edu" target="_blank"><i class="bi bi-envelope-at ps-1 pe-1"></i></a><a href="https://github.com/jpowerj" target="_blank"><i class="bi bi-github ps-1"></i></a></span></a> 
+      <a href="../../">DSAN 5000 Section 02 (Tuesdays, 12:30pm-3pm)<br><span class="subtitle">Intercultural Center 219</span><br><span class="subtitle">Fall 2023, Georgetown</span><br><span class="subtitle">Prof.&nbsp;Jeff <a href="mailto:jj1088@georgetown.edu" target="_blank"><i class="bi bi-envelope-at ps-1 pe-1"></i></a><a href="https://github.com/jpowerj" target="_blank"><i class="bi bi-github ps-1"></i></a></span></a> 
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -140,43 +110,43 @@ ul.task-list li input[type="checkbox"] {
         <li class="px-0"><hr class="sidebar-divider hi "></li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Section 02 Home</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./about.html" class="sidebar-item-text sidebar-link">
+  <a href="../../about.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About Me</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./week01.html" class="sidebar-item-text sidebar-link">
+  <a href="../../week01.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 1: Aug 23</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./week02.html" class="sidebar-item-text sidebar-link">
+  <a href="../../week02.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 2: Aug 29</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./w03/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../w03/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 3: Sep 6 (Wednesday)</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./w04/index.html" class="sidebar-item-text sidebar-link">
+  <a href="../../w04/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Week 4: Sep 12</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./writeups/index.qmd" class="sidebar-item-text sidebar-link">
+  <a href="../../writeups/index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Extra Writeups</span></a>
   </div>
 </li>
@@ -199,21 +169,39 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#simple-but-non-scalable-method-google-scholar" id="toc-simple-but-non-scalable-method-google-scholar" class="nav-link active" data-scroll-target="#simple-but-non-scalable-method-google-scholar">Simple But Non-Scalable Method: Google Scholar</a>
+  <ul class="collapse">
+  <li><a href="#step-1-obtaining-references" id="toc-step-1-obtaining-references" class="nav-link" data-scroll-target="#step-1-obtaining-references">Step 1: Obtaining References</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">DSAN 5000, Section 02</h1>
-</div>
+<h1 class="title">Using Quarto’s Reference/Citation Manager</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Extra Writeups</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
     
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">September 12, 2023</p>
+    </div>
+  </div>
   
     
   </div>
@@ -221,70 +209,57 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>This is a “hub” collecting relevant links for each week, for students in the <strong>Tuesday section (Section 02)</strong> of <em>DSAN 5000: Data Science and Analytics</em>, Fall 2023 at Georgetown University.</p>
-<p>It is <em>not</em> a replacement for the <strong><a href="https://jfh.georgetown.domains/dsan5000/" target="_blank">Main Course Page</a></strong> or the <strong><a href="https://georgetown.instructure.com/courses/173310" target="_blank">Canvas Page</a></strong>, which are shared across all sections!</p>
-<p>Use the menu on the left, or the table below, to view the resources for a specific week.</p>
-
-
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-
-<table class="quarto-listing-table table table-hover">
-<thead>
-<tr>
-<th>
-Title
-</th>
-<th>
-Date
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-categories="Class Sessions" data-listing-date-sort="1692763200000" data-listing-file-modified-sort="1693296225128" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Week 1: Welcome to DSAN 5000!" data-listing-filename-sort="week01.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./week01.html" class="title listing-title">Week 1: Welcome to DSAN 5000!</a>
-</td>
-<td>
-<span class="listing-date">Wednesday, August 23, 2023</span>
-</td>
-</tr>
-<tr data-index="1" data-categories="Class Sessions" data-listing-date-sort="1693281600000" data-listing-file-modified-sort="1693434504896" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-title-sort="Week 2: Data Science Fundamentals and Workflow" data-listing-filename-sort="week02.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./week02.html" class="title listing-title">Week 2: Data Science Fundamentals and Workflow</a>
-</td>
-<td>
-<span class="listing-date">Tuesday, August 29, 2023</span>
-</td>
-</tr>
-<tr data-index="2" data-categories="Class Sessions" data-listing-date-sort="1693972800000" data-listing-file-modified-sort="1694464200674" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-title-sort="Week 3: Data Science Workflow" data-listing-filename-sort="index.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./w03/index.html" class="title listing-title">Week 3: Data Science Workflow</a>
-</td>
-<td>
-<span class="listing-date">Wednesday, September 6, 2023</span>
-</td>
-</tr>
-<tr data-index="3" data-categories="Class Sessions" data-listing-date-sort="1694491200000" data-listing-file-modified-sort="1694543358417" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="20" data-listing-title-sort="Week 4: Data Gathering and APIs" data-listing-filename-sort="index.qmd" onclick="href = this.querySelector('a').getAttribute('href');
- if (href) { window.location=href ; return false; }">
-<td>
-<a href="./w04/index.html" class="title listing-title">Week 4: Data Gathering and APIs</a>
-</td>
-<td>
-<span class="listing-date">Tuesday, September 12, 2023</span>
-</td>
-</tr>
-</tbody>
-
-</table>
-<div class="listing-no-matching d-none">
-No matching items
+<p>For your homework and your project, we ask you to carry out two specific steps to integrate <strong>references</strong> into your Quarto documents:</p>
+<ol type="1">
+<li>Obtain references to scholarly papers/books,</li>
+<li>Combine information about these references into a <code>references.bib</code> file, and</li>
+<li>Include <strong>citations</strong> to these references within your Quarto document.</li>
+</ol>
+<p>This walkthrough will show you the details of each step.</p>
+<p>First things first, there are many ways to obtain references, and many formats that the references can come in, but the format used by Quarto is called <strong>BibTeX</strong>. Long story short, there two ways to obtain <strong>BibTeX-style reference info</strong> for a given paper or book. The first way (using <strong>Google Scholar</strong>) is simple, and will let you immediately generate a <code>references.bib</code> file. The second way (using a <strong>reference manager</strong> like Zotero or Mendeley) takes a bit longer to get set up, but will save you SO much time in the long run. I’ll start with the Google Scholar approach, but I highly recommend reading onwards to learn the Zotero/Mendeley approach as well.</p>
+<section id="simple-but-non-scalable-method-google-scholar" class="level2">
+<h2 class="anchored" data-anchor-id="simple-but-non-scalable-method-google-scholar">Simple But Non-Scalable Method: Google Scholar</h2>
+<section id="step-1-obtaining-references" class="level3">
+<h3 class="anchored" data-anchor-id="step-1-obtaining-references">Step 1: Obtaining References</h3>
+<p>An easy way to quickly obtain references in a format where you can immediately cite them in your Quarto documents is to use <a href="https://scholar.google.com" target="_blank">Google Scholar</a>. If you open that link, and search for a topic you’re interested in, it should show you a big list of results that looks like:</p>
+<div id="fig-einstein" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/einstein.jpeg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure&nbsp;1: Results from searching for “Einstein” on Google Scholar</figcaption>
+</figure>
 </div>
-</div></main> <!-- /main -->
+<p>Now, if you choose one of these references and click the “Cite” button at the bottom of the result, it should display a popup (modal) dialog that looks like the following:</p>
+<div id="fig-cite-popup" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="images/cite_popup.jpeg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Figure&nbsp;2: The popup (modal) dialog which comes up if you click the “Cite” link at the bottom of the Google Scholar result</figcaption>
+</figure>
+</div>
+<p>Now, if you click on the “BibTeX” link, the first link at the bottom of this popup (modal) window, it should immediately open a new tab containing a plaintext version of the <strong>BibTeX data</strong> for this reference, like:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/bibtex_data.jpeg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">The BibTeX data for the selected reference, obtained by clicking the “BibTeX” link at the bottom of the “Cite” popup</figcaption>
+</figure>
+</div>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>If you don’t see this plaintext data, that probably means that your browser is set to <strong>download</strong> rather than just <strong>display</strong> .bib files, so just look in your Downloads folder for the downloaded file (it might have some weird name, and it might not have a <code>.bib</code> extension, but that’s ok, it will still open in a text editor like VSCode), open it in a text editor, and it should contain exactly the above data.</p>
+</div>
+</div>
+</div>
+<p>However you end up with this plaintext reference data, <strong>copy and paste it</strong> into a new text file (in VSCode, you can create a new plaintext file using <code>Cmd</code>+<code>N</code>), and <strong>save this file</strong> as <strong><code>references.bib</code></strong>.</p>
+<p>That’s it! You now have a fully-fledged <code>references.bib</code> file! It only contains one reference at the moment, but we can quickly add more by repeating the above process: find another reference you’d like to cite,</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

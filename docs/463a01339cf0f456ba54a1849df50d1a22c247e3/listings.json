@@ -7,5 +7,12 @@
       "/w03/index.html",
       "/w04/index.html"
     ]
+  },
+  {
+    "listing": "/writeups/index.html",
+    "items": [
+      "/writeups/domains-ssh/index.html",
+      "/writeups/refs-and-citations/index.html"
+    ]
   }
 ]
