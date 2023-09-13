@@ -7,32 +7,32 @@
     "text": "Today’s Links\n\n\n\n\nWeek 2 Lecture Notes\nLab 1 Home\n\n\n\nToday’s Planned Schedule:\n\n\n\n\n\n\n\n\n\n\n\n\nStart\nEnd\nTopic\n\n\n\n\n\n\nLecture\n12:30pm\n12:50pm\nComputer Fundamentals\n\n\n\n\n\n12:50pm\n1:10pm\nCoding Fundamentals\n\n\n\n\n\n1:10pm\n1:30pm\nHTML and CSS\n\n\n\n\n\n1:30pm\n1:50pm\nObjects and Classes\n\n\n\n\nBreak!\n1:50pm\n2:00pm\n\n\n\n\n\nLab\n2:00pm\n2:25pm\nLab Part I: Coding Demonstration\n\n\n\n\n\n2:25pm\n2:50pm\nLab Part II: HTML/CSS Demonstration\n\n\n\n\n\n2:50pm\n3:00pm\nLab Assignment Overview"
   },
   {
-    "objectID": "about.html#prof.-jeff-introduction",
-    "href": "about.html#prof.-jeff-introduction",
-    "title": "",
-    "section": "Prof. Jeff Introduction!",
-    "text": "Prof. Jeff Introduction!\n\nBorn and raised in NW DC → high school in Rockville, MD\nUniversity of Maryland: Computer Science, Math, Economics (2008-2012)"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "DSAN 5000, Section 02",
+    "section": "",
+    "text": "This is a “hub” collecting relevant links for each week, for students in the Tuesday section (Section 02) of DSAN 5000: Data Science and Analytics, Fall 2023 at Georgetown University.\nIt is not a replacement for the Main Course Page or the Canvas Page, which are shared across all sections!\nUse the menu on the left, or the table below, to view the resources for a specific week.\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nWeek 1: Welcome to DSAN 5000!\n\n\nWednesday, August 23, 2023\n\n\n\n\nWeek 2: Data Science Fundamentals and Workflow\n\n\nTuesday, August 29, 2023\n\n\n\n\nWeek 3: Data Science Workflow\n\n\nWednesday, September 6, 2023\n\n\n\n\nWeek 4: Data Gathering and APIs\n\n\nTuesday, September 12, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "about.html#prof.-jeff-introduction-1",
-    "href": "about.html#prof.-jeff-introduction-1",
-    "title": "",
-    "section": "Prof. Jeff Introduction!",
-    "text": "Prof. Jeff Introduction!\n\nStudied abroad in Beijing (Peking University/北大) → internship with Huawei in Hong Kong (HKUST)\n\n\n\n\nStanford for MS in Computer Science (2012-2014)\nResearch Economist at UC Berkeley (2014-2015)\n\n\n\n\n\n\nColumbia (NYC) for PhD[+Postdoc] in Political Science (2015-2023)"
+    "objectID": "writeups/index.html",
+    "href": "writeups/index.html",
+    "title": "Extra Writeups",
+    "section": "",
+    "text": "Title\n\n\nDate\n\n\n\n\n\n\nTroubleshooting SSH/SCP/rsync on Georgetown Domains\n\n\nTuesday, September 12, 2023\n\n\n\n\nHomework 1 Clarifications\n\n\nundefined\n\n\n\n\nLab 1.2 Clarifications\n\n\nundefined\n\n\n\n\nUsing Quarto’s Reference/Citation Manager\n\n\nTuesday, September 12, 2023\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "about.html#dissertation-political-science-history",
-    "href": "about.html#dissertation-political-science-history",
-    "title": "",
-    "section": "Dissertation (Political Science + History)",
-    "text": "Dissertation (Political Science + History)\n“Our Word is Our Weapon”: Text-Analyzing Wars of Ideas from the French Revolution to the First Intifada"
+    "objectID": "writeups/slides.html#slide-1",
+    "href": "writeups/slides.html#slide-1",
+    "title": "Slides",
+    "section": "Slide 1",
+    "text": "Slide 1\nWelcome to my Slides"
   },
   {
-    "objectID": "about.html#research-labor-economics",
-    "href": "about.html#research-labor-economics",
-    "title": "",
-    "section": "Research (Labor Economics)",
-    "text": "Research (Labor Economics)\n\n“Monopsony in Online Labor Markets”\n\nMachine Learning to enhance causal estimates of the effect of job description language on uptake rate\n\n“Unsupervised Extraction of Workplace Rights and Duties from Collective Bargaining Agreements”\n\nLinguistic (dependency) parses of CBAs → time series of worker vs. employer rights and responsibilities over time\n\n“Freedom as Non-Domination in the Labor Market”\n\nGame-theoretic models of Douglassian (republican) liberty1 for workers: monopsony vs. labor discipline\n\n\n\n\n\n\n\n\n\n\nFrederick Douglass: “It was slavery itself, not its mere incidents, that I hated.”"
+    "objectID": "writeups/slides.html#slide-2",
+    "href": "writeups/slides.html#slide-2",
+    "title": "Slides",
+    "section": "Slide 2",
+    "text": "Slide 2\n\n\nCode\n# Regular comment\n11+1\n\n\n12"
   },
   {
     "objectID": "w04/slides.html#git-commands",
@@ -368,7 +368,7 @@
     "href": "w04/index.html#csv-.tsv",
     "title": "Week 4: Data Gathering and APIs",
     "section": ".csv / .tsv",
-    "text": ".csv / .tsv\n\n\n👍\n\n\nmy_data.csv\n\nindex,var_1,var_2,var_3\nA,val_A1,val_A2,val_A3\nB,val_B1,val_B2,val_B3\nC,val_C1,val_C2,val_C3\nD,val_D1,val_D2,val_D3\n\n\n(👎)\n\n\nmy_data.tsv\n\nindex var_1 var_2 var_3\nA val_A1  val_A2  val_A3\nB val_B1  val_B2  val_B3\nC val_C1  val_C2  val_C3\nD val_D1  val_D2  val_D3\n\n\n\n→\n\n\n\n\n\n\n\n\n\n\n\n\n\nPython: pd.read_csv() (from Pandas library)\nR: read_csv() (from readr library)"
+    "text": ".csv / .tsv\n\n\n👍\n\n\nmy_data.csv\n\nindex,var_1,var_2,var_3\nA,val_A1,val_A2,val_A3\nB,val_B1,val_B2,val_B3\nC,val_C1,val_C2,val_C3\nD,val_D1,val_D2,val_D3\n\n\n(👎)\n\n\nmy_data.tsv\n\nindex var_1 var_2 var_3\nA val_A1  val_A2  val_A3\nB val_B1  val_B2  val_B3\nC val_C1  val_C2  val_C3\nD val_D1  val_D2  val_D3\n\n\n\n→\n\n\n\nsource(\"../_globals.r\")\nlibrary(readr)\ndata &lt;- read_csv(\"assets/my_data.csv\")\n\nRows: 3 Columns: 4\n── Column specification ────────────────────────────────────────────────────────\nDelimiter: \",\"\nchr (4): index, var_1, var_2, var_3\n\nℹ Use `spec()` to retrieve the full column specification for this data.\nℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.\n\ndisp(data)\n\n\n\n\n\n# | index | var_1 | var_2 | var_3 |\n# | - | - | - | - |\n# | A | val_A1 | val_A2 | val_A3 |\n# | B | val_B1 | val_B2 | val_B3 |\n# | C | val_C1 | val_C2 | val_C3 |\n# | D | val_D1 | val_D2 | val_D3 | \n\n\n\n\n\nPython: pd.read_csv() (from Pandas library)\nR: read_csv() (from readr library)"
   },
   {
     "objectID": "w04/index.html#json",
@@ -459,7 +459,7 @@
     "href": "w04/index.html#scraping-html-with-httr2-and-xml2",
     "title": "Week 4: Data Gathering and APIs",
     "section": "Scraping HTML with httr2 and xml2",
-    "text": "Scraping HTML with httr2 and xml2\nhttr2 Documentation | xml2 Documentation\n\n\nCode\n# Get HTML\nlibrary(httr2)\nrequest_obj &lt;- request(\"https://en.wikipedia.org/wiki/Data_science\")\nresponse_obj &lt;- req_perform(request_obj)\n# Parse HTML\nlibrary(xml2)\nhtml_obj &lt;- response_obj %&gt;% resp_body_html()\nhtml_obj %&gt;% xml_find_all('//h2//span[@class=\"mw-headline\"]')\n\n\n{xml_nodeset (6)}\n[1] &lt;span class=\"mw-headline\" id=\"Foundations\"&gt;Foundations&lt;/span&gt;\n[2] &lt;span class=\"mw-headline\" id=\"Etymology\"&gt;Etymology&lt;/span&gt;\n[3] &lt;span class=\"mw-headline\" id=\"Data_Science_and_Data_Analysis\"&gt;Data Scienc ...\n[4] &lt;span class=\"mw-headline\" id=\"History\"&gt;History&lt;/span&gt;\n[5] &lt;span class=\"mw-headline\" id=\"See_also\"&gt;See also&lt;/span&gt;\n[6] &lt;span class=\"mw-headline\" id=\"References\"&gt;References&lt;/span&gt;\n\n\n\n\nNote: httr2 is a re-written version of the original httr package, which is now deprecated. You’ll still see lots of code using httr, however, so it’s good to know how both versions work. Click here for a helpful vignette on the original httr library."
+    "text": "Scraping HTML with httr2 and xml2\nhttr2 Documentation | xml2 Documentation\n\n\nCode\n# Get HTML\nlibrary(httr2)\nrequest_obj &lt;- request(\"https://en.wikipedia.org/wiki/Data_science\")\nresponse_obj &lt;- req_perform(request_obj)\n# Parse HTML\nlibrary(xml2)\n\n\n\nAttaching package: 'xml2'\n\n\nThe following object is masked from 'package:httr2':\n\n    url_parse\n\n\nCode\nhtml_obj &lt;- response_obj %&gt;% resp_body_html()\nhtml_obj %&gt;% xml_find_all('//h2//span[@class=\"mw-headline\"]')\n\n\n{xml_nodeset (6)}\n[1] &lt;span class=\"mw-headline\" id=\"Foundations\"&gt;Foundations&lt;/span&gt;\n[2] &lt;span class=\"mw-headline\" id=\"Etymology\"&gt;Etymology&lt;/span&gt;\n[3] &lt;span class=\"mw-headline\" id=\"Data_Science_and_Data_Analysis\"&gt;Data Scienc ...\n[4] &lt;span class=\"mw-headline\" id=\"History\"&gt;History&lt;/span&gt;\n[5] &lt;span class=\"mw-headline\" id=\"See_also\"&gt;See also&lt;/span&gt;\n[6] &lt;span class=\"mw-headline\" id=\"References\"&gt;References&lt;/span&gt;\n\n\n\n\nNote: httr2 is a re-written version of the original httr package, which is now deprecated. You’ll still see lots of code using httr, however, so it’s good to know how both versions work. Click here for a helpful vignette on the original httr library."
   },
   {
     "objectID": "w04/index.html#navigating-html-with-xpath",
@@ -907,7 +907,7 @@
     "href": "w03/slides.html#human-fallibility-is-winning",
     "title": "Week 3: Data Science Workflow",
     "section": "Human Fallibility is Winning…",
-    "text": "Human Fallibility is Winning…\n\nMore than 70% of researchers have tried and failed to reproduce another scientist’s experiments, and more than half have failed to reproduce their own experiments. Those are some of the telling figures that emerged from Nature’s survey of 1,576 researchers (Baker 2016)\n\n\n\n\nsource(\"../_globals.r\")\nlibrary(dplyr)\n\n\nAttaching package: 'dplyr'\n\n\nThe following objects are masked from 'package:stats':\n\n    filter, lag\n\n\nThe following objects are masked from 'package:base':\n\n    intersect, setdiff, setequal, union\n\nlibrary(ggplot2)\nga_lawyers &lt;- c(21362, 22254, 23134, 23698, 24367, 24930, 25632, 26459, 27227, 27457)\nski_df &lt;- tibble::tribble(\n  ~year, ~varname, ~value,\n  2000, \"ski_revenue\", 1551,\n  2001, \"ski_revenue\", 1635,\n  2002, \"ski_revenue\", 1801,\n  2003, \"ski_revenue\", 1827,\n  2004, \"ski_revenue\", 1956,\n  2005, \"ski_revenue\", 1989,\n  2006, \"ski_revenue\", 2178,\n  2007, \"ski_revenue\", 2257,\n  2008, \"ski_revenue\", 2476,\n  2009, \"ski_revenue\", 2438,\n)\nski_mean &lt;- mean(ski_df$value)\nski_sd &lt;- sd(ski_df$value)\nski_df &lt;- ski_df %&gt;% mutate(val_scaled = 12*value, val_norm = (value - ski_mean)/ski_sd)\nlaw_df &lt;- tibble::tibble(year=2000:2009, varname=\"ga_lawyers\", value=ga_lawyers)\nlaw_mean &lt;- mean(law_df$value)\nlaw_sd &lt;- sd(law_df$value)\nlaw_df &lt;- law_df %&gt;% mutate(val_norm = (value - law_mean)/law_sd)\nspur_df &lt;- dplyr::bind_rows(ski_df, law_df)\nggplot(spur_df, aes(x=year, y=val_norm, color=factor(varname, labels = c(\"Ski Revenue\",\"Lawyers in Georgia\")))) +\n  stat_smooth(method=\"loess\", se=FALSE) +\n  geom_point(size=g_pointsize/4) +\n  labs(\n    fill=\"\",\n    title=\"Ski Revenue vs. Georgia Lawyers\",\n    x=\"Year\",\n    color=\"Correlation: 99.2%\",\n    linetype=NULL\n  ) +\n  dsan_theme(\"custom\", 18) +\n  scale_x_continuous(\n    breaks=seq(from=2000, to=2014, by=2)\n  ) +\n  #scale_y_continuous(\n  #  name=\"Total Revenue, Ski Facilities (Million USD)\",\n  #  sec.axis = sec_axis(~ . * law_sd + law_mean, name = \"Number of Lawyers in Georgia\")\n  #) +\n  scale_y_continuous(breaks = -1:1,\n    labels = ~ . * round(ski_sd,1) + round(ski_mean,1),\n    name=\"Total Revenue, Ski Facilities (Million USD)\",\n    sec.axis = sec_axis(~ . * law_sd + law_mean, name = \"Number of Lawyers in Georgia\")) +\n  expand_limits(x=2010) +\n  #geom_hline(aes(yintercept=x, color=\"Mean Values\"), as.data.frame(list(x=0)), linewidth=0.75, alpha=1.0, show.legend = TRUE) +\n  scale_color_manual(\n    breaks=c('Ski Revenue', 'Lawyers in Georgia'),\n    values=c('Ski Revenue'=cbPalette[1], 'Lawyers in Georgia'=cbPalette[2]))\n\n`geom_smooth()` using formula = 'y ~ x'\n\n\n\n\n\n\n\n\n\n\n\ncor(ski_df$value, law_df$value)\n\n[1] 0.9921178"
+    "text": "Human Fallibility is Winning…\n\nMore than 70% of researchers have tried and failed to reproduce another scientist’s experiments, and more than half have failed to reproduce their own experiments. Those are some of the telling figures that emerged from Nature’s survey of 1,576 researchers (Baker 2016)\n\n\n\n\n\n\n\n\n\n\n\n\n\n\ncor(ski_df$value, law_df$value)\n\n[1] 0.9921178"
   },
   {
     "objectID": "w03/slides.html#r-vs.-rstudio-vs.-quarto",
@@ -1127,20 +1127,6 @@
     "text": "References\n\n\nBaker, Monya. 2016. “1,500 Scientists Lift the Lid on Reproducibility.” Nature 533 (7604): 452–54. https://doi.org/10.1038/533452a.\n\n\nMenczer, Filippo, Santo Fortunato, and Clayton A. Davis. 2020. A First Course in Network Science. Cambridge University Press."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "DSAN 5000, Section 02",
-    "section": "",
-    "text": "This is a “hub” collecting relevant links for each week, for students in the Tuesday section (Section 02) of DSAN 5000: Data Science and Analytics, Fall 2023 at Georgetown University.\nIt is not a replacement for the Main Course Page or the Canvas Page, which are shared across all sections!\nUse the menu on the left, or the table below, to view the resources for a specific week.\n\n\n\n\n\n\n\n\n\n\nTitle\n\n\nDate\n\n\n\n\n\n\nWeek 1: Welcome to DSAN 5000!\n\n\nWednesday, August 23, 2023\n\n\n\n\nWeek 2: Data Science Fundamentals and Workflow\n\n\nTuesday, August 29, 2023\n\n\n\n\nWeek 3: Data Science Workflow\n\n\nWednesday, September 6, 2023\n\n\n\n\nWeek 4: Data Gathering and APIs\n\n\nTuesday, September 12, 2023\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "week01.html",
-    "href": "week01.html",
-    "title": "Week 1: Welcome to DSAN 5000!",
-    "section": "",
-    "text": "(Week 1 of DSAN 5000 was a joint session across all individual sections, taught on Zoom.)\n\n\n\n\n\n\nToday’s Links\n\n\n\n\nWeek 1 Lecture Notes\nLab 0 Instructions\nWeek 1 Lecture Recording"
-  },
-  {
     "objectID": "w04/about.html",
     "href": "w04/about.html",
     "title": "About Me",
@@ -1155,67 +1141,11 @@
     "text": "Scelerisque mauris pellentesque pulvinar pellentesque habitant morbi. Arcu felis bibendum ut tristique. Consequat interdum varius sit amet mattis. Dolor morbi non arcu risus quis varius quam quisque. Feugiat scelerisque varius morbi enim nunc. Eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper. Pellentesque dignissim enim sit amet. Enim sit amet venenatis urna cursus eget nunc. Orci ac auctor augue mauris augue. Aliquam sem fringilla ut morbi tincidunt augue. Proin nibh nisl condimentum id venenatis a. Felis eget velit aliquet sagittis id consectetur. Lobortis feugiat vivamus at augue. Diam sollicitudin tempor id eu nisl nunc mi ipsum. Pellentesque dignissim enim sit amet venenatis urna.\nLacus viverra vitae congue eu consequat ac. Cursus sit amet dictum sit. Fames ac turpis egestas integer eget aliquet nibh. Blandit cursus risus at ultrices mi tempus imperdiet. Quisque egestas diam in arcu cursus. Orci nulla pellentesque dignissim enim. Viverra nam libero justo laoreet. Dapibus ultrices in iaculis nunc sed. Maecenas pharetra convallis posuere morbi. Vitae elementum curabitur vitae nunc sed. Non blandit massa enim nec dui nunc. Volutpat est velit egestas dui id ornare arcu odio ut."
   },
   {
-    "objectID": "writeups/refs-and-citations.html",
-    "href": "writeups/refs-and-citations.html",
-    "title": "Using Quarto’s Reference/Citation Manager",
+    "objectID": "writeups/hw1-clarifications/index.html",
+    "href": "writeups/hw1-clarifications/index.html",
+    "title": "Homework 1 Clarifications",
     "section": "",
-    "text": "For your homework and your project, we ask you to carry out two specific steps to integrate references into your Quarto documents:\nThis walkthrough will show you the details of each step"
-  },
-  {
-    "objectID": "writeups/refs-and-citations.html#obtain-references",
-    "href": "writeups/refs-and-citations.html#obtain-references",
-    "title": "Using Quarto’s Reference/Citation Manager",
-    "section": "Obtain References",
-    "text": "Obtain References\nThere are many ways to obtain references, and many formats that the references can come in, but the format used by Quarto is called BibTeX. Long story short, there two ways to obtain BibTeX-style reference info for a given paper or book. The first way is simple, but The first way has a longer setup time, but will make your life so much easier in the long run.\n\nSimple But Non-Scalable Method: Google Scholar"
-  },
-  {
-    "objectID": "writeups/slides.html#slide-1",
-    "href": "writeups/slides.html#slide-1",
-    "title": "Slides",
-    "section": "Slide 1",
-    "text": "Slide 1\nWelcome to my Slides"
-  },
-  {
-    "objectID": "writeups/slides.html#slide-2",
-    "href": "writeups/slides.html#slide-2",
-    "title": "Slides",
-    "section": "Slide 2",
-    "text": "Slide 2\n\n\nCode\n# Regular comment\n11+1\n\n\n12"
-  },
-  {
-    "objectID": "writeups/refs-and-citations.html#obtaining-references",
-    "href": "writeups/refs-and-citations.html#obtaining-references",
-    "title": "Using Quarto’s Reference/Citation Manager",
-    "section": "Obtaining References",
-    "text": "Obtaining References\nThere are many ways to obtain references, and many formats that the references can come in, but the format used by Quarto is called BibTeX. Long story short, there two ways to obtain BibTeX-style reference info for a given paper or book. The first way (using Google Scholar) is simple, and will let you immediately generate a references.bib file. The second way (using a reference manager like Zotero or Mendeley) takes a bit longer to get set up, but will save you SO much time in the long run.\n\nSimple But Non-Scalable Method: Google Scholar\nAn easy way to quickly obtain references in a format where you can immediately cite them in your Quarto documents is to use Google Scholar. If you open that link, and search for a topic you’re interested in, it should show you a big list of results that looks like:"
-  },
-  {
-    "objectID": "writeups/refs-and-citations/index.html",
-    "href": "writeups/refs-and-citations/index.html",
-    "title": "Using Quarto’s Reference/Citation Manager",
-    "section": "",
-    "text": "For your homework and your project, we ask you to carry out two specific steps to integrate references into your Quarto documents:\nThis walkthrough will show you the details of each step.\nFirst things first, there are many ways to obtain references, and many formats that the references can come in, but the format used by Quarto is called BibTeX. Long story short, there two ways to obtain BibTeX-style reference info for a given paper or book. The first way (using Google Scholar) is simple, and will let you immediately generate a references.bib file. The second way (using a reference manager like Zotero or Mendeley) takes a bit longer to get set up, but will save you SO much time in the long run. I’ll start with the Google Scholar approach, but I highly recommend reading onwards to learn the Zotero/Mendeley approach as well."
-  },
-  {
-    "objectID": "writeups/refs-and-citations/index.html#obtaining-references",
-    "href": "writeups/refs-and-citations/index.html#obtaining-references",
-    "title": "Using Quarto’s Reference/Citation Manager",
-    "section": "Obtaining References",
-    "text": "Obtaining References\nThere are many ways to obtain references, and many formats that the references can come in, but the format used by Quarto is called BibTeX. Long story short, there two ways to obtain BibTeX-style reference info for a given paper or book. The first way (using Google Scholar) is simple, and will let you immediately generate a references.bib file. The second way (using a reference manager like Zotero or Mendeley) takes a bit longer to get set up, but will save you SO much time in the long run.\n\nSimple But Non-Scalable Method: Google Scholar\nAn easy way to quickly obtain references in a format where you can immediately cite them in your Quarto documents is to use Google Scholar. If you open that link, and search for a topic you’re interested in, it should show you a big list of results that looks like:\n\n\n\nFigure 1: Results from searching for “Einstein” on Google Scholar\n\n\nNow, if you choose one of these references and click the “Cite” button at the bottom of the result, it should display a popup (modal) dialog that looks like the following:\n\n\n\nFigure 2: The popup (modal) dialog which comes up if you click the “Cite” link at the bottom of the Google Scholar result\n\n\nNow, if you click on the “BibTeX” link, the first link at the bottom of this popup (modal) window, it should immediately open a new tab containing a plaintext version of the BibTeX data for this reference, like:\n\n\n\nThe BibTeX data for the selected reference, obtained by clicking the “BibTeX” link at the bottom of the “Cite” popup\n\n\n\n\n\n\n\n\nIf you don’t see this plaintext data, that probably means that your browser is set to download rather than just display .bib files, so just look in your Downloads folder for the downloaded file (it might have some weird name, and it might not have a .bib extension, but that’s ok, it will still open in a text editor like VSCode), open it in a text editor, and it should contain just the above data."
-  },
-  {
-    "objectID": "writeups/refs-and-citations/index.html#simple-but-non-scalable-method-google-scholar",
-    "href": "writeups/refs-and-citations/index.html#simple-but-non-scalable-method-google-scholar",
-    "title": "Using Quarto’s Reference/Citation Manager",
-    "section": "Simple But Non-Scalable Method: Google Scholar",
-    "text": "Simple But Non-Scalable Method: Google Scholar\n\nStep 1: Obtaining References\nAn easy way to quickly obtain references in a format where you can immediately cite them in your Quarto documents is to use Google Scholar. If you open that link, and search for a topic you’re interested in, it should show you a big list of results that looks like:\n\n\n\nFigure 1: Results from searching for “Einstein” on Google Scholar\n\n\nNow, if you choose one of these references and click the “Cite” button at the bottom of the result, it should display a popup (modal) dialog that looks like the following:\n\n\n\nFigure 2: The popup (modal) dialog which comes up if you click the “Cite” link at the bottom of the Google Scholar result\n\n\nNow, if you click on the “BibTeX” link, the first link at the bottom of this popup (modal) window, it should immediately open a new tab containing a plaintext version of the BibTeX data for this reference, like:\n\n\n\nThe BibTeX data for the selected reference, obtained by clicking the “BibTeX” link at the bottom of the “Cite” popup\n\n\n\n\n\n\n\n\nIf you don’t see this plaintext data, that probably means that your browser is set to download rather than just display .bib files, so just look in your Downloads folder for the downloaded file (it might have some weird name, and it might not have a .bib extension, but that’s ok, it will still open in a text editor like VSCode), open it in a text editor, and it should contain exactly the above data.\n\n\n\nHowever you end up with this plaintext reference data, copy and paste it into a new text file (in VSCode, you can create a new plaintext file using Cmd+N), and save this file as references.bib.\nThat’s it! You now have a fully-fledged references.bib file! It only contains one reference at the moment, but we can quickly add more by repeating the above process: find another reference you’d like to cite,"
-  },
-  {
-    "objectID": "writeups/index.html",
-    "href": "writeups/index.html",
-    "title": "Extra Writeups",
-    "section": "",
-    "text": "Title\n\n\nDate\n\n\n\n\n\n\nTroubleshooting SSH/SCP/rsync on Georgetown Domains\n\n\nTuesday, September 12, 2023\n\n\n\n\nHomework 1 Clarifications\n\n\nundefined\n\n\n\n\nLab 1.2 Clarifications\n\n\nundefined\n\n\n\n\nUsing Quarto’s Reference/Citation Manager\n\n\nTuesday, September 12, 2023\n\n\n\n\n\n\nNo matching items"
+    "text": "Homework 1 Link"
   },
   {
     "objectID": "writeups/lab-1-2-clarifications/index.html",
@@ -1225,10 +1155,24 @@
     "text": "Lab 1.2 Link"
   },
   {
-    "objectID": "writeups/hw1-clarifications/index.html",
-    "href": "writeups/hw1-clarifications/index.html",
-    "title": "Homework 1 Clarifications",
+    "objectID": "writeups/refs-and-citations/index.html",
+    "href": "writeups/refs-and-citations/index.html",
+    "title": "Using Quarto’s Reference/Citation Manager",
     "section": "",
-    "text": "Homework 1 Link"
+    "text": "For your homework and your project, we ask you to carry out two specific steps to integrate references into your Quarto documents:\nThis walkthrough will show you the details of each step.\nFirst things first, there are many ways to obtain references, and many formats that the references can come in, but the format used by Quarto is called BibTeX. Long story short, there two ways to obtain BibTeX-style reference info for a given paper or book. The first way (using Google Scholar) is simple, and will let you immediately generate a references.bib file. The second way (using a reference manager like Zotero or Mendeley) takes a bit longer to get set up, but will save you SO much time in the long run. I’ll start with the Google Scholar approach, but I highly recommend reading onwards to learn the Zotero/Mendeley approach as well."
+  },
+  {
+    "objectID": "writeups/refs-and-citations/index.html#simple-but-non-scalable-method-google-scholar",
+    "href": "writeups/refs-and-citations/index.html#simple-but-non-scalable-method-google-scholar",
+    "title": "Using Quarto’s Reference/Citation Manager",
+    "section": "Simple But Non-Scalable Method: Google Scholar",
+    "text": "Simple But Non-Scalable Method: Google Scholar\n\nStep 1: Obtaining References\nAn easy way to quickly obtain references in a format where you can immediately cite them in your Quarto documents is to use Google Scholar. If you open that link, and search for a topic you’re interested in, it should show you a big list of results that looks like:\n\n\n\nFigure 1: Results from searching for “Einstein” on Google Scholar\n\n\nNow, if you choose one of these references and click the “Cite” button at the bottom of the result, it should display a popup (modal) dialog that looks like the following:\n\n\n\nFigure 2: The popup (modal) dialog which comes up if you click the “Cite” link at the bottom of the Google Scholar result\n\n\nNow, if you click on the “BibTeX” link, the first link at the bottom of this popup (modal) window, it should immediately open a new tab containing a plaintext version of the BibTeX data for this reference, like:\n\n\n\nThe BibTeX data for the selected reference, obtained by clicking the “BibTeX” link at the bottom of the “Cite” popup\n\n\n\n\n\n\n\n\nIf you don’t see this plaintext data, that probably means that your browser is set to download rather than just display .bib files, so just look in your Downloads folder for the downloaded file (it might have some weird name, and it might not have a .bib extension, but that’s ok, it will still open in a text editor like VSCode), open it in a text editor, and it should contain exactly the above data.\n\n\n\nHowever you end up with this plaintext reference data, copy and paste it into a new text file (in VSCode, you can create a new plaintext file using Cmd+N), and save this file as references.bib.\nThat’s it! You now have a fully-fledged references.bib file! It only contains one reference at the moment, but we can quickly add more by repeating the above process: find another reference you’d like to cite,"
+  },
+  {
+    "objectID": "week01.html",
+    "href": "week01.html",
+    "title": "Week 1: Welcome to DSAN 5000!",
+    "section": "",
+    "text": "(Week 1 of DSAN 5000 was a joint session across all individual sections, taught on Zoom.)\n\n\n\n\n\n\nToday’s Links\n\n\n\n\nWeek 1 Lecture Notes\nLab 0 Instructions\nWeek 1 Lecture Recording"
   }
 ]
