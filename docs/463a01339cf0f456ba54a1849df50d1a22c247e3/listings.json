@@ -11,10 +11,11 @@
   {
     "listing": "/writeups/index.html",
     "items": [
-      "/writeups/domains-ssh/index.html",
       "/writeups/hw1-clarifications/index.html",
       "/writeups/lab-1-2-clarifications/index.html",
-      "/writeups/refs-and-citations/index.html"
+      "/writeups/zotero/index.html",
+      "/writeups/refs-and-citations/index.html",
+      "/writeups/domains-ssh/index.html"
     ]
   }
 ]
