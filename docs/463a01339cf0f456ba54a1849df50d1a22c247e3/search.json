@@ -102,7 +102,7 @@
     "href": "writeups/index.html",
     "title": "Extra Writeups",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Last Updated - Oldest\n        \n         \n          Last Updated - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nLast Updated\n\n\nCategory\n\n\n\n\n\n\nMaking Multiple Columns\n\n\nundefined\n\n\nExtra Writeups\n\n\n\n\nHomework 1 Clarifications\n\n\nWednesday Sep 13, 2023, 01:14:58\n\n\nClarifications\n\n\n\n\nLab 1.2 Clarifications\n\n\nWednesday Sep 13, 2023, 01:06:21\n\n\nClarifications\n\n\n\n\nUsing Quarto’s Reference Manager with Zotero\n\n\nWednesday Sep 13, 2023, 01:05:16\n\n\nExtra Writeups\n\n\n\n\nUsing Quarto’s Reference Manager with Google Scholar\n\n\nWednesday Sep 13, 2023, 01:04:01\n\n\nExtra Writeups\n\n\n\n\nTroubleshooting SSH/SCP/rsync on Georgetown Domains\n\n\nTuesday Sep 12, 2023, 20:35:49\n\n\nExtra Writeups\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Last Updated - Oldest\n        \n         \n          Last Updated - Newest\n        \n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nLast Updated\n\n\nCategory\n\n\n\n\n\n\nMaking Multiple Columns\n\n\nThursday Sep 14, 2023, 18:05:59\n\n\nExtra Writeups\n\n\n\n\nHomework 1 Clarifications\n\n\nWednesday Sep 13, 2023, 01:14:58\n\n\nClarifications\n\n\n\n\nLab 1.2 Clarifications\n\n\nWednesday Sep 13, 2023, 01:06:21\n\n\nClarifications\n\n\n\n\nUsing Quarto’s Reference Manager with Zotero\n\n\nWednesday Sep 13, 2023, 01:05:16\n\n\nExtra Writeups\n\n\n\n\nUsing Quarto’s Reference Manager with Google Scholar\n\n\nWednesday Sep 13, 2023, 01:04:01\n\n\nExtra Writeups\n\n\n\n\nTroubleshooting SSH/SCP/rsync on Georgetown Domains\n\n\nTuesday Sep 12, 2023, 20:35:49\n\n\nExtra Writeups\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "writeups/hw1-clarifications/index.html",
@@ -1264,7 +1264,7 @@
     "href": "writeups/columns/index.html",
     "title": "Making Multiple Columns",
     "section": "",
-    "text": "The following Quarto code:\nHello this is my document\n\n::: columns\n\n::: {.column width=\"50%\"}\n\nHere is column 1\n\n:::\n::: {.column width=\"50%\"}\n\nHere is column 2\n\n:::\n\n:::\n\nProduces:\nHello this is my document\n\n\nHere is column 1\n\nHere is column 2"
+    "text": "The following Quarto code:\n\n\n\n\n\n\nQuarto Code Using ::: columns\n\n\n\nHello this is my document\n\n::: columns\n\n::: {.column width=\"50%\"}\n\nHere is column 1\n\n:::\n::: {.column width=\"50%\"}\n\nHere is column 2\n\n:::\n\n:::\n\n\n\nProduces the following rendered output:\n\n\n\n\n\n\nRendered Output Using ::: columns\n\n\n\nHello this is my document\n\n\nHere is column 1\n\nHere is column 2"
   },
   {
     "objectID": "schedules/w04.html",
