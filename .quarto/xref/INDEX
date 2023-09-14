@@ -57,5 +57,25 @@
   },
   "writeups/zotero/index.qmd": {
     "index.html": "e5bb9ce8"
+  },
+  "w02/index.qmd": {
+    "index.html": "c79dccf4"
+  },
+  "about/about.qmd": {
+    "about.html": "b49fb327",
+    "index.html": "7a659b20",
+    "slides.html": "3bdb72ae"
+  },
+  "schedules/w04.qmd": {
+    "w04.html": "0ca677fe"
+  },
+  "recordings/index.qmd": {
+    "index.html": "88504d61"
+  },
+  "writeups/columns/index.qmd": {
+    "index.html": "beb16c14"
+  },
+  "w01/index.qmd": {
+    "index.html": "6dfdc6f9"
   }
 }

@@ -1,9 +1,7 @@
 project:
   type: website
   resources:
-    - "w02/recording*.html"
-    - "w03/recording*.html"
-    - "w04/recording*.html"
+    - "recordings/*.html"
   output-dir: docs/463a01339cf0f456ba54a1849df50d1a22c247e3
   preview:
     port: 4321
@@ -20,15 +18,17 @@ website:
       - "---"
       - href: index.qmd
         text: "Section 02 Home"
-      - href: week01.qmd
+      - href: w01/index.qmd
         text: "Week 1: Aug 23"
-      - href: week02.qmd
+      - href: w02/index.qmd
         text: "Week 2: Aug 29"
       - href: w03/index.qmd
         text: "Week 3: Sep 6 (Wednesday)"
       - href: w04/index.qmd
         text: "Week 4: Sep 12"
       - "---"
+      - href: recordings/index.qmd
+        text: "Recordings"
       - href: writeups/index.qmd
         text: "Extra Writeups"
       - "---"
