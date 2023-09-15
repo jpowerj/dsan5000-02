@@ -5,6 +5,9 @@ date-format: full
 lecnum: 2
 categories:
   - "Class Sessions"
+format:
+  html:
+    cache: true
 ---
 
 ::: {.callout-note}
