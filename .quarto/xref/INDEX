@@ -77,5 +77,8 @@
   },
   "w01/index.qmd": {
     "index.html": "6dfdc6f9"
+  },
+  "recordings/recording-w03-ssh-windows.qmd": {
+    "recording-w03-ssh-windows.html": "bb86f553"
   }
 }
