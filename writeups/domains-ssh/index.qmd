@@ -297,6 +297,33 @@ You should now see something that looks like the following:
 
 You should **take a screenshot** of this path, or **write it down**, or remember it some other way. Because, this is the **remote path** (the path on the remote server) that you'll want to copy your **local files** to, when we ask you e.g. to copy your `_site` directory to your Georgetown Domains server.
 
+## Step 2.7: Exiting the SSH Session and Returning to Your Local Computer
+
+Now that you know how to connect to a remote server using `ssh`, you'll have to be a bit more vigilant about noticing **which computer you're working on** when you are typing and running commands in the terminal. As mentioned above, if you see a terminal prompt that looks like the following
+
+```bash
+[jpjgeorg@gtown3 ~]$
+```
+
+Then this terminal is probably **connected to your Georgetown Domains server**, meaning that any commands you enter will be **run on the Georgetown Domains server**. If instead you see a terminal prompt that looks like
+
+```bash
+jpj@GSAS-AL-06LVHQQ ~ %
+```
+
+That means you are safely back on your local machine, so that the commands you enter will be **run locally**, on the processor of your laptop. Since we just finished an SSH session, however, we are probably **still logged in to the Georgetown Domains server**. So, to **exit** this session and return back to executing commands on your local machine, just enter and execute the `exit` command:
+
+```bash
+exit
+```
+
+If successful, it should show output like the following:
+
+```bash
+logout
+Connection to jpj.georgetown.domains closed.
+```
+
 ## Step 3: Moving from `ssh` to `scp`
 
 Now that you know how to provide the necessary information and connect to your Georgetown Domains server using the `ssh` command, we'll move to the `scp` command. Basically, while the `ssh` command lets you connect to and **"look around"** inside your server, the `scp` command allows you to **transfer files** to and from your server. The information you need to provide, and the syntax, are very similar, so we're done with the hardest parts!
@@ -317,7 +344,7 @@ scp -i "/Users/jpj/id_rsa"
 
 ### Step 3.2: Providing the Path (Absolute or Relative) to the Local File You'd Like to Copy
 
-Next, I need to give `scp` the **path** to the **file** that I'd like to copy to my Georgetown Domains server. Note that here we're starting with **file copying** rather than **folder copying**, which I **strongly recommend** so that you can check whether the syntax of your `scp` command is correct before trying to copy a ton of files. Specifically, I recommend just making a **test file** called `hello.txt`, and seeing if you can successfully use `scp` to copy this file from your local drive to your Georgetown Domains server. To create a fake file like this very quickly, you can run the following commands in your terminal:
+Next, I need to give `scp` the **path** to the **file** that I'd like to copy to my Georgetown Domains server. Note that here we're starting with **file copying** rather than **folder copying**, which I **strongly recommend** so that you can check whether the syntax of your `scp` command is correct before trying to copy a ton of files. Specifically, I recommend just making a **test file** called `hello.txt`, and seeing if you can successfully use `scp` to copy this file from your local drive to your Georgetown Domains server. To create a fake file like this very quickly, you can open a **new terminal window** and run the following commands:
 
 ```bash
 touch hello.txt
@@ -372,3 +399,4 @@ This command, once executed, should now show a series of messages, indicating th
 
 Once this command completes, you can again check that the copy was successful in one of two ways: either (a) by using `ssh` to log into the server, then using `cd` and `ls` to move to the `public_html` folder and check its contents, or (b) opening your browser and checking (in my case) [https://jpj.georgetown.domains/mysite](https://jpj.georgetown.domains/mysite){target="_blank"}.
 
+As one final thing to notice: unlike in the case of `ssh`, we don't need to use `exit` to leave an `scp` "session". That is because, `scp` **immediately exits** from the remote server once the files have been copied. So, immediately after the `scp` command completes, you are still on your local computer, and commands that you enter and execute are still run locally (when in doubt, look for the terminal prompt! If it looks like `[jpjgeorg@gtown3 ~]$`, that means you still need to `exit` from the Georgetown Domains server back to your local machine.)
