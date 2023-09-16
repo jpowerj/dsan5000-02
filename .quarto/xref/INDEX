@@ -80,5 +80,14 @@
   },
   "recordings/recording-w03-ssh-windows.qmd": {
     "recording-w03-ssh-windows.html": "bb86f553"
+  },
+  "extra-videos/index.qmd": {
+    "index.html": "6c7da0e1"
+  },
+  "lecture-recordings/index.qmd": {
+    "index.html": "af9e0d6e"
+  },
+  "lecture-recordings/recording-w03-ssh-windows.qmd": {
+    "recording-w03-ssh-windows.html": "6a8f4313"
   }
 }
